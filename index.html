@@ -1,0 +1,2391 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"/>
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+	<link rel="stylesheet" href="./fontawesome/css/all.css"/>
+	<link rel="stylesheet" href="./style.css"/>
+	<link rel="stylesheet" href="./grid.css"/>
+	<title>Aleksander Boev CV</title>
+	<link rel="icon" href="./favicon.ico" type="image/vnd.microsoft.icon"/>
+	<link rel="icon" type="image/png" href="./favicon/favicon.jpg">
+	<link rel="apple-touch-icon" href="./favicon/apple-touch-icon.jpg">
+	<link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-touch-icon-72x72.jpg">
+	<link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-touch-icon-114x114.jpg">
+	<meta name="theme-color" content="#212121"/>
+	<meta name="msapplication-navbutton-color" content="#212121"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="#212121"/>
+</head>
+<body>
+<div id="page">
+	<header>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid container-xxl">
+				<span class="navbar-brand">
+					<b data-key="fullName">Aleksander Boev</b><br>
+					<i data-key="profession">Web Developer</i>
+				</span>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarList" aria-expanded="true" onclick="displayMenu(event)">
+					<span class="navbar-icon hover-target">
+						<span class="navbar-icon__line navbar-icon__line-left"></span>
+						<span class="navbar-icon__line"></span>
+						<span class="navbar-icon__line navbar-icon__line-right"></span>
+					</span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarList">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" href="#about" data-key="aboutMe">About me</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#education" data-key="education">Education</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#certificates" data-key="certificates">Certificates</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#workExperience" data-key="workExperience">Work experience</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#codeExample" data-key="codeExample">Code example</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#projects" data-key="projects">Projects</a>
+						</li>
+						<li class="nav-item">
+							<button id="switch-lang" class="nav-link btn-lang">Ru</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="container-fluid container-xxl">
+			<div class="row">
+				<div class="col-xl-9">
+					<div class="card">
+						<div class="row">
+							<div class="col-md-auto">
+								<img class="img-ava" src="images/ava.jpg" alt="Aleksander Boev">
+							</div>
+							<div class="col-md-auto">
+								<div class="profile-info">
+									<h1 data-key="fullName">Aleksander Boev</h1>
+									<h2 data-key="profession">Web Developer</h2>
+									<div class="location">
+										<i class="fa-solid fa-location-dot"></i>
+										<span data-key="geo">Russia, Krasnodar</span>
+									</div>
+									<div class="email">
+										<i class="fa-regular fa-envelope"></i>
+										<a rel="nofollow" href="mailto:alexander.boev.dev@gmail.com" target="_blank">alexander.boev.dev@gmail.com</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card" id="about">
+						<div class="row">
+							<div class="col-12">
+								<h2 data-key="aboutMe">About me</h2>
+								<p data-key="aboutMe-1">Since 2009, I have been actively involved in developing websites on the Drupal CMS, professionally growing and honing my skills.</p>
+								<p data-key="aboutMe-2">I specialize in Front-end development and have successfully implemented numerous projects, allowing me to delve deep into the intricacies and capabilities of this platform.</p>
+								<p data-key="aboutMe-3">Additionally, I develop projects using React.js and Next.js, possessing substantial experience with these technologies. My professionalism and creative approach to each task enable me to create innovative and high-performance solutions, making me a valuable asset to any team.</p>
+							</div>
+						</div>
+					</div>
+					<div class="card card__line" id="education">
+						<div class="row">
+							<div class="col-12">
+								<h2 class="card-title" data-key="education">Education</h2>
+							</div>
+							<div class="col-12">
+								<div class="card-items">
+									<div class="row">
+										<div class="col-md-5 col-xl-3">
+											<h3 class="card-subtitle__date">
+												<i class="fa-regular fa-calendar-check"></i> <span data-key="sept" class="font-ls">Sept.</span> 2003 — <span data-key="jun" class="font-ls">Jun.</span> 2004
+											</h3>
+											<p><i class="fa-solid fa-location-dot me-2"></i><span data-key="geo">Russia, Krasnodar</span></p>
+										</div>
+										<div class="col-md-7 col-xl-9">
+											<h3 class="card-subtitle" data-key="nameEducational-1">Professional Lyceum #41</h3>
+											<h4 class="card-subtitle card-subtitle__italic card-subtitle__gray" data-key="specialization-1">Computer Operator</h4>
+											<p data-key="specializationInfo-1">I completed courses on working with computers, and received the profession of a computer operator.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="card-items">
+									<div class="row">
+										<div class="col-md-5 col-xl-3">
+											<h3 class="card-subtitle__date">
+												<i class="fa-regular fa-calendar"></i> <span data-key="oct">Oct.</span> 2021
+											</h3>
+											<p><i class="fa-solid fa-location-dot"></i> <span data-key="geo-1">Russia, Moscow</span></p>
+										</div>
+										<div class="col-md-7 col-xl-9">
+											<h3 class="card-subtitle" data-key="nameEducational-2">University «Synergy»</h3>
+											<h4 class="card-subtitle card-subtitle__italic card-subtitle__gray" data-key="specialization-2">Web development</h4>
+											<p data-key="specializationInfo-2">Bachelor's degree, Non-state educational private institution of higher education «Moscow Financial and Industrial University «Synergy».</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card card__cert" id="certificates">
+						<div class="row">
+							<div class="col-12">
+								<h2 class="card-title" data-key="certificates">Certificates</h2>
+							</div>
+							<div class="col-12 mb-3">
+								<div class="row">
+									<div class="col-12">
+										<blockquote class="blockquote">
+											<i class="fa-solid fa-quote-left"></i>
+											<p data-key="certificatesInfo">I have been awarded certificates of distinction from the university for achieving high scores on exams, demonstrating my dedication and proficiency in key subject areas that are directly relevant to the position.</p>
+										</blockquote>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates/term-1/term_1_5.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates/term-1/term_1_5.jpg" alt="Basics of layout using html and css">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-1">
+												Basics of layout using html and css
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="april">April</span> 09, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates/term-2/term_2_6.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates/term-2/term_2_6.jpg" alt="Programming in JavaScript">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-2">
+												Programming in JavaScript
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="august">August</span> 26, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates/term-2/term_2_7.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates/term-2/term_2_7.jpg" alt="Programming in Python">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-3">
+												Programming in Python
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="september">September</span> 29, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates/term-2/term_2_4.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates/term-2/term_2_4.jpg" alt="Teamwork and leadership">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-4">
+												Teamwork and leadership
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="october">October</span> 4, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates/term-2/term_2_8.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates/term-2/term_2_8.jpg" alt="Project management">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-5">
+												Project management
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="october">October</span> 04, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates/term-2/term_2_2.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates/term-2/term_2_2.jpg" alt="Information and analytical systems">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-6">
+												Information and analytical systems
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="october">October</span> 24, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates/term-2/term_2_3.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates/term-2/term_2_3.jpg" alt="Foreign language in professional activity">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-7">
+												Foreign language in professional activity
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="october">October</span> 24, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates/term-3/term_3_6.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates/term-3/term_3_6.jpg" alt="Programming in PHP">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-8">
+												Programming in PHP
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="january">January</span> 23, 2023
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates/term-3/term_3_4.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates/term-3/term_3_4.jpg" alt="JavaScript Frameworks">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-9">
+												JavaScript Frameworks
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="march">March</span> 01, 2023
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates/term-3/term_3_1.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates/term-3/term_3_1.jpg" alt="Data Analytics">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-10">
+												Data Analytics
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="march">March</span> 04, 2023
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates/term-3/term_3_7.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates/term-3/term_3_7.jpg" alt="Theory of information processes and systems">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-11">
+												Theory of information processes and systems
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="march">March</span> 07, 2023
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates/term-3/term_3_2.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates/term-3/term_3_2.jpg" alt="Architecture of information systems">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-12">
+												Architecture of information systems
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="march">March</span> 12, 2023
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates/term-3/term_3_8.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates/term-3/term_3_8.jpg" alt="Data management">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-13">
+												Data management
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="march">March</span> 12, 2023
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates/term-4/term_4_1.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates/term-4/term_4_1.jpg" alt="PHP Frameworks">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-14">
+												PHP Frameworks
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="june">June</span> 20, 2023
+											</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 mb-3">
+								<div class="row">
+									<div class="col-12">
+										<blockquote class="blockquote">
+											<i class="fa-solid fa-quote-left"></i>
+											<p data-key="certificatesInfo-1">Stepik is a leading educational platform and an innovative online course creator. I have successfully completed the 'Fundamental JavaScript' course and received the corresponding certificate.</p>
+										</blockquote>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-stepik/stepik-certificate-114165-3087544.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-stepik/stepik-certificate-114165-3087544.jpg" alt="Fundamental JavaScript">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-15">
+												Fundamental JavaScript
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="august">August</span> 08, 2023
+											</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 mb-3">
+								<div class="row">
+									<div class="col-12">
+										<blockquote class="blockquote">
+											<i class="fa-solid fa-quote-left"></i>
+											<p data-key="certificatesInfo-2">I have completed specialized courses in the ELMA365 system, which is an advanced cloud adaptation of the ELMA BPM system focused on the automation and robotization of business processes. Utilizing its Low-code platform, I have successfully obtained certificates demonstrating my ability to rapidly transform business needs into effective solutions, enhancing operational efficiencies.</p>
+										</blockquote>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-elma/elma_2.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-elma/elma_2.jpg" alt="How the ELMA platform works">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-16">
+												How the ELMA platform works
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="may">May</span> 15, 2023
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-elma/elma_1.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-elma/elma_1.jpg" alt="Basic functionality of ELMA (files, tasks, messages)">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-17">
+												Basic functionality of ELMA (files, tasks, messages)
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="may">May</span> 18, 2023
+											</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 mb-3">
+								<div class="row">
+									<div class="col-12">
+										<blockquote class="blockquote">
+											<i class="fa-solid fa-quote-left"></i>
+											<p data-key="certificatesInfo-3">I have successfully completed and received certifications on the Visiology platform, gaining advanced skills in data analysis and JavaScript development critical for effective data-driven decision-making.</p>
+										</blockquote>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-visiology/ADM.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-visiology/ADM.jpg" alt="Administrator of the Visiology platform">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-18">
+												Administrator of the Visiology platform
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="august">August</span> 21, 2023
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-visiology/Analyst_of_the_Smart_Forms_system.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-visiology/Analyst_of_the_Smart_Forms_system.jpg" alt="Analyst of the Smart Forms system">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-19">
+												Analyst of the Smart Forms system
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="august">August</span> 21, 2023
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-visiology/ANX.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-visiology/ANX.jpg" alt="Platform analyst. Advanced level">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-20">
+												Platform analyst. Advanced level
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="august">August</span> 21, 2023
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-visiology/ANX.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-visiology/ANX.jpg" alt="Platform analyst. Advanced level">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-21">
+												Platform analyst. Advanced level
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="august">August</span> 21, 2023
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-visiology/Developer_of_JAVA_SCRIPT_in_the_Visiology_platform.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-visiology/Developer_of_JAVA_SCRIPT_in_the_Visiology_platform.jpg" alt="Developer of JAVA SCRIPT in the Visiology platform">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-22">
+												Developer of JAVA SCRIPT in the Visiology platform
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="august">August</span> 24, 2023
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-visiology/Analyst_of_the_Visiology_platform_Basic_level_ver.2.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-visiology/Analyst_of_the_Visiology_platform_Basic_level_ver.2.jpg" alt="Analyst of the Visiology platform. Basic level (ver. 2)">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-23">
+												Analyst of the Visiology platform. Basic level (ver. 2)
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="august">August</span> 24, 2023
+											</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="row">
+									<div class="col-12">
+										<blockquote class="blockquote">
+											<i class="fa-solid fa-quote-left"></i>
+											<p data-key="certificatesInfo-4">As a certified expert in CMS 1C-Bitrix and Bitrix24, I have mastered all the necessary tools for effective digital management and development. My proven achievements, demonstrated by successfully passing all required certification tests, ensure that I am ready to immediately contribute to the success of your team. You can always verify my qualifications on the official 1C-Bitrix website using the provided certificate numbers.</p>
+										</blockquote>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/01.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/01.png" alt="Bitrix24.CRM">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-24">
+												Bitrix24.CRM
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="july">July</span> 28, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/02.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/02.png" alt="Automation of business processes">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-25">
+												Automation of business processes
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="july">July</span> 22, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/03.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/03.png" alt="End-to-end analytics in Bitrix24.CRM">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-26">
+												End-to-end analytics in Bitrix24.CRM
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="july">July</span> 12, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/04.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/04.png" alt="CRM marketing in Bitrix24">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-27">
+												CRM marketing in Bitrix24
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="july">July</span> 12, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/05.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/05.png" alt="Tasks and projects">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-28">
+												Tasks and projects
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="july">July</span> 12, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/06.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/06.png" alt="Bitrix24.Office">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-29">
+												Bitrix24.Office
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="july">July</span> 11, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/07.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/07.png" alt="Course for hosters">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-30">
+												Course for hosters
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="july">July</span> 8, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/08.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/08.png" alt="Administrator of the Bitrix24 service (boxed version)">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-31">
+												Administrator of the Bitrix24 service (boxed version)
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="july">July</span> 8, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/09.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/09.png" alt="Vue.js and Bitrix Framework">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-32">
+												Vue.js and Bitrix Framework
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="july">July</span> 6, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/10.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/10.png" alt="Multisite Bitrix Framework">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-33">
+												Multisite Bitrix Framework
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="june">June</span> 11, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/11.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/11.png" alt="Composite Site Technology Bitrix Framework">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-34">
+												Composite Site Technology Bitrix Framework
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="june">June</span> 11, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/12.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/12.png" alt="Developer of Bitrix Framework">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-35">
+												Developer of Bitrix Framework
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="june">June</span> 11, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/13.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/13.png" alt="Integration with 1C">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-36">
+												Integration Bitrix Framework with 1C
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="june">June</span> 10, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/14.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/14.png" alt="Administrator. Business">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-37">
+												Administrator. Business
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="june">June</span> 10, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/15.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/15.png" alt="Administrator Bitrix Framework Modules">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-38">
+												Administrator Bitrix Framework Modules
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="june">June</span> 10, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/16.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/16.png" alt="Administrator. Basic Bitrix Framework">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-39">
+												Administrator. Basic Bitrix Framework
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="june">June</span> 10, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/17.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/17.png" alt="Installing and Configuring Bitrix Framework">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-40">
+												Installing and Configuring Bitrix Framework
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="june">June</span> 9, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/18.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/18.png" alt=" Website Promotion and Bitrix Framework Marketing">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-41">
+												Website Promotion and Bitrix Framework Marketing
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="june">June</span> 9, 2022
+											</h4>
+										</div>
+									</div>
+									<div class="col-sm-4 col-lg-3 mb-3 text-centre">
+										<div class="card-items">
+											<a href="images/certificates-bitrix/19.pdf" target="_blank">
+												<img class="mb-3" src="images/certificates-bitrix/19.png" alt="Bitrix Framework Content Manager">
+											</a>
+											<h3 class="card-subtitle card-subtitle__cert" data-key="certificateName-42">
+												Bitrix Framework Content Manager
+											</h3>
+											<h4 class="card-subtitle__info">
+												<span data-key="june">June</span> 9, 2022
+											</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card card__line" id="workExperience">
+						<div class="row">
+							<div class="col-12">
+								<h2 class="card-title" data-key="workExperience">Work experience</h2>
+							</div>
+							<div class="col-12">
+								<div class="card-items">
+									<div class="row">
+										<div class="col-md-5 col-xl-3">
+											<h3 class="card-subtitle__date">
+												<i class="fa-regular fa-calendar-days"></i> <span data-key="sept" class="font-ls">Sept.</span> 2010 — <span data-key="may" class="font-ls">May.</span> 2015
+											</h3>
+											<p><i class="fa-solid fa-location-dot"></i> <span data-key="geo">Russia, Krasnodar</span></p>
+											<p class="mb-3"><i class="fa-solid fa-link"></i> <a class="link-web" class="link-web" href="http://www.forwardmobile.ru/" data-key="CompanyWebsite" target="_blank">Company website</a></p>
+										</div>
+										<div class="col-md-7 col-xl-9">
+											<h3 class="card-subtitle" data-key="CompanyName-1">Web Developer at LLC ForwardMobile</h3>
+											<p data-key="CompanyAbout-1">I have extensive experience in remote programming of payment terminal interfaces and developing innovative functionalities for dealer accounts. My expertise spans across using programming languages such as Perl, HTML, Less, and CSS to enhance user experiences and streamline operations.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="card-items">
+									<div class="row">
+										<div class="col-md-5 col-xl-3">
+											<h3 class="card-subtitle__date">
+												<i class="fa-regular fa-calendar-days"></i> <span data-key="jun" class="font-ls">Jun.</span> 2015 — <span data-key="jul" class="font-ls">Jul.</span> 2017
+											</h3>
+											<p><i class="fa-solid fa-location-dot"></i> <span data-key="geo">Russia, Krasnodar</span></p>
+											<p class="mb-3"><i class="fa-solid fa-link"></i> <a class="link-web" href="https://labsales.ru/" data-key="CompanyWebsite" target="_blank">Company website</a></p>
+										</div>
+										<div class="col-md-7 col-xl-9">
+											<h3 class="card-subtitle" data-key="CompanyName-2">Web Developer at LLC LabSales</h3>
+											<p data-key="CompanyAbout-2">My experience encompasses website development on CMS Drupal versions 6 through 8, where I honed my skills in sophisticated web solutions. This role expanded my expertise to include developing on platforms such as 1C-Bitrix and CMS NetCat, enabling me to deliver versatile and robust websites tailored to specific business needs.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="card-items">
+									<div class="row">
+										<div class="col-md-5 col-xl-3">
+											<h3 class="card-subtitle__date">
+												<i class="fa-regular fa-calendar-days"></i> <span data-key="jun" class="font-ls">Jun.</span> 2016 — <span data-key="jan" class="font-ls">Jan.</span> 2019
+											</h3>
+											<p><i class="fa-solid fa-location-dot"></i> <span data-key="geo-3">Belarus, Minsk</span></p>
+											<p class="mb-3"><i class="fa-solid fa-link"></i> <a href="https://zwolves.com/" class="link-web" data-key="CompanyWebsite" target="_blank">Company website</a></p>
+										</div>
+										<div class="col-md-7 col-xl-9">
+											<h3 class="card-subtitle" data-key="CompanyName-3">Website development at LLC Zwolves</h3>
+											<p data-key="CompanyAbout-3">At Zwolves, I honed my web development skills, focusing on creating corporate websites and online stores, and integrating websites with third-party resources. My work involved utilizing a comprehensive tech stack, including Drupal, Bootstrap, Twig, Less, Scss, Node.js, JavaScript, HTML & CSS, MySql, PHP, Symfony, Storybook, and tools like Git, Docker, and Atlassian suite (Bitbucket, Confluence, Jira, Trello), ensuring robust, scalable, and efficient digital solutions.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="card-items">
+									<div class="row">
+										<div class="col-md-5 col-xl-3">
+											<h3 class="card-subtitle__date">
+												<i class="fa-regular fa-calendar-days"></i> <span data-key="jan" class="font-ls">Jan.</span> 2019 — <span data-key="may" class="font-ls">May.</span> 2021
+											</h3>
+											<p><i class="fa-solid fa-location-dot"></i> <span data-key="geo">Russia, Krasnodar</span></p>
+											<p class="mb-3"><i class="fa-solid fa-link"></i> <a class="link-web" href="https://asb-studio.com/" data-key="CompanyWebsite" target="_blank">Company website</a></p>
+										</div>
+										<div class="col-md-7 col-xl-9">
+											<h3 class="card-subtitle" data-key="CompanyName-4">Web Developer at LTD ASB Studio</h3>
+											<p data-key="CompanyAbout-4">At ASB Studio, I managed and executed projects involving the development of websites from initial prototypes and design to full development on CMS Drupal versions 8 and 9. Leveraging my extensive tech stack, which includes Bootstrap, Twig, Less, Scss, Node.js, JavaScript, HTML & CSS, MySql, PHP, Symfony, Storybook, and tools like Git, Docker, and the Atlassian suite (Bitbucket, Confluence, Jira, Trello), I delivered highly customized and scalable digital solutions tailored to meet specific client needs.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="card-items">
+									<div class="row">
+										<div class="col-md-5 col-xl-3">
+											<h3 class="card-subtitle__date">
+												<i class="fa-regular fa-calendar-days"></i> <span data-key="may" class="font-ls">May.</span> 2021 - <span data-key="dec" class="font-ls">Dec.</span> 2021
+											</h3>
+											<p><i class="fa-solid fa-location-dot"></i> <span data-key="geo-2">Russia, Novosibirsk</span></p>
+											<p class="mb-3"><i class="fa-solid fa-link"></i> <a class="link-web" href="https://i20.biz/" data-key="CompanyWebsite" target="_blank">Company website</a></p>
+										</div>
+										<div class="col-md-7 col-xl-9">
+											<h3 class="card-subtitle" data-key="CompanyName-5">Website development at LTD i20</h3>
+											<p data-key="CompanyAbout-5">At 'i20', my role involved the development of new e-commerce and corporate websites using CMS Drupal 9, as well as providing support for existing projects on CMS Drupal 7-9. I was also responsible for the development of simple modules, themes, and more complex module configurations for CMS Drupal. Additionally, I successfully managed the migration of projects from Drupal 7 to Drupal 9, integrating Vue.js to enhance interactive elements and user experience.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="card-items">
+									<div class="row">
+										<div class="col-md-5 col-xl-3">
+											<h3 class="card-subtitle__date">
+												<i class="fa-regular fa-calendar-days"></i> <span data-key="dec" class="font-ls">Dec.</span> 2021 - <span data-key="may" class="font-ls">May.</span> 2024
+											</h3>
+											<p><i class="fa-solid fa-location-dot"></i> <span data-key="geo-1">Russia, Moscow</span></p>
+											<p class="mb-3"><i class="fa-solid fa-link"></i> <a class="link-web" href="https://www.7rlines.com/" data-key="CompanyWebsite" target="_blank">Company website</a></p>
+										</div>
+										<div class="col-md-7 col-xl-9">
+											<h3 class="card-subtitle" data-key="CompanyName-6">Website development at LTD 7 Red Lines</h3>
+											<p data-key="CompanyAbout-6">In my recent role, I engaged in the development of new projects on CMS Drupal 9-10, focusing on frontend development and theme customization. Utilizing a robust tech stack that includes JavaScript, TypeScript, React, and Vue.js, along with extensive use of Bootstrap 5, I crafted dynamic and responsive designs. My expertise in backend technologies and proficiency in DevOps tools like Docker and Kubernetes enabled me to deliver robust and scalable web solutions. Additionally, I integrated modern web functionalities using preprocessors to align with contemporary web standards.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="card-items">
+									<div class="row">
+										<div class="col-md-5 col-xl-3">
+											<h3 class="card-subtitle__date">
+												<i class="fa-regular fa-calendar-days"></i> <span data-key="may" class="font-ls">May.</span> 2024 — <span data-key="UntilNow">Until now</span>
+											</h3>
+											<p><i class="fa-solid fa-location-dot"></i> <span data-key="geo">Russia, Krasnodar</span></p>
+											<p class="mb-3"><i class="fa-solid fa-link"></i> <a class="link-web" href="https://asb-studio.com/" data-key="CompanyWebsite" target="_blank">Company website</a></p>
+										</div>
+										<div class="col-md-7 col-xl-9">
+											<h3 class="card-subtitle" data-key="CompanyName-4">Web Developer at LTD ASB Studio</h3>
+											<p data-key="CompanyAbout-4">At ASB Studio, I managed and executed projects involving the development of websites from initial prototypes and design to full development on CMS Drupal versions 8 and 9. Leveraging my extensive tech stack, which includes Bootstrap, Twig, Less, Scss, Node.js, JavaScript, HTML & CSS, MySql, PHP, Symfony, Storybook, and tools like Git, Docker, and the Atlassian suite (Bitbucket, Confluence, Jira, Trello), I delivered highly customized and scalable digital solutions tailored to meet specific client needs.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card" id="codeExample">
+						<div class="row">
+							<div class="col-12">
+<h2 data-key="codeExample-1">Code example typescript</h2>
+<pre class="lang-typescript">
+import { validateOrReject, IsEmail, MinLength } from "class-validator";
+import { plainToClass } from "class-transformer";
+class User {
+    @IsEmail()
+    email: string;
+    @MinLength(10)
+    password: string;
+    constructor(email: string, password: string) {
+        this.email = email;
+        this.password = password;
+    }
+}
+async function validateUser(user: User) {
+    try {
+        await validateOrReject(user);
+        console.log('Пользователь валиден.');
+    } catch (errors) {
+        console.log('Обнаружены ошибки валидации:', errors);
+    }
+}
+async function getUserFromDb&lt;T&gt;(id: string, type: { new (...args: any[]): T }): Promise&lt;T | null&gt; {
+    const userData = { email: "example@example.com", password: "verystrongpassword" };
+    const user = plainToClass(type, userData);
+    await validateUser(user);
+    return user;
+}
+(async () =&gt; {
+    const user = await getUserFromDb&lt;User&gt;('123', User);
+    if (user) {
+        console.log('Пользователь получен:', user);
+    }
+})();
+</pre>
+<h2 data-key="codeExample-2">Code example React App</h2>
+<pre class="lang-typescript">
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navbar from './Navbar';
+import WeatherForm from './WeatherForm';
+import WeatherDisplay from './WeatherDisplay';
+import About from './About';
+import NotFound from './NotFound';
+import { WeatherProvider } from './WeatherContext';
+
+function App() {
+  return (
+    &lt;Router&gt;
+      &lt;WeatherProvider&gt;
+        &lt;Navbar /&gt;
+        &lt;Switch&gt;
+          &lt;Route path="/" exact component={WeatherForm} /&gt;
+          &lt;Route path="/weather" component={WeatherDisplay} /&gt;
+          &lt;Route path="/about" component={About} /&gt;
+          &lt;Route component={NotFound} /&gt;
+        &lt;/Switch&gt;
+      &lt;/WeatherProvider&gt;
+    &lt;/Router&gt;
+  );
+}
+
+export default App;
+</pre>
+<pre class="lang-typescript">
+import React, { useState, useContext } from 'react';
+import { WeatherContext } from './WeatherContext';
+
+function WeatherForm() {
+  const [city, setCity] = useState('');
+  const { fetchWeather } = useContext(WeatherContext);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    fetchWeather(city);
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <input
+	      type="text"
+	      value={city}
+	      onChange={(e) => setCity(e.target.value)}
+        placeholder="Enter City"
+      />
+      <button type="submit">Get Weather</button>
+    </form>
+  );
+}
+
+export default WeatherForm;
+</pre>
+<pre class="lang-typescript">
+import React, { useContext } from 'react';
+import { WeatherContext } from './WeatherContext';
+
+function WeatherDisplay() {
+  const { weatherData } = useContext(WeatherContext);
+
+  return (
+    <div>
+      {weatherData ? (
+        <div>
+          <h1>{weatherData.city}</h1>
+          <p>Temperature: {weatherData.temperature} °C</p>
+          <p>Condition: {weatherData.condition}</p>
+        </div>
+      ) : (
+        <p>No weather data available. Please enter a city.</p>
+      )}
+    </div>
+  );
+}
+
+export default WeatherDisplay;
+</pre>
+<h2 data-key="codeExample-3">Code example React Native App «Todo List»</h2>
+<pre class="lang-typescript">
+import React, { useState } from 'react';
+import { StyleSheet, View, TextInput, Button, FlatList, Text } from 'react-native';
+import TodoItem from './components/TodoItem';
+
+export default function App() {
+  const [todos, setTodos] = useState([]);
+  const [text, setText] = useState('');
+
+  const addTodo = () => {
+    setTodos([...todos, { key: Math.random().toString(), name: text }]);
+    setText('');
+  };
+
+  const deleteTodo = key => {
+    setTodos(todos.filter(todo => todo.key !== key));
+  };
+
+  return (
+    <View style={styles.container}>
+      <TextInput
+	      style={styles.input}
+	      placeholder="Add new todo"
+	      onChangeText={setText}
+	      value={text}
+      />
+      <Button title="Add Todo" onPress={addTodo} color="coral" />
+      <FlatList
+	      data={todos}
+	      renderItem={({ item }) => (
+          <TodoItem item={item} deleteTodo={deleteTodo} />
+        )}
+      />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    paddingTop: 50,
+    paddingHorizontal: 20,
+  },
+  input: {
+    marginBottom: 10,
+    paddingHorizontal: 8,
+    paddingVertical: 6,
+    borderBottomWidth: 1,
+    borderBottomColor: '#ddd',
+  }
+});
+</pre>
+<pre class="lang-typescript">
+import React from 'react';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+
+const TodoItem = ({ item, deleteTodo }) => {
+  return (
+    <TouchableOpacity onPress={() => deleteTodo(item.key)}>
+      <View style={styles.item}>
+        <Text>{item.name}</Text>
+      </View>
+	</TouchableOpacity>
+	);
+};
+
+const styles = StyleSheet.create({
+  item: {
+    padding: 16,
+    marginTop: 16,
+    borderColor: '#bbb',
+    borderWidth: 1,
+    borderStyle: 'dashed',
+    borderRadius: 10,
+  }
+});
+
+export default TodoItem;
+</pre>
+<h2 data-key="codeExample-5">Example code Symfony</h2>
+<pre class="lang-php">
+namespace App\Controller;
+
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
+use App\Entity\User;
+use Doctrine\ORM\EntityManagerInterface;
+use Symfony\Component\Validator\Validator\ValidatorInterface;
+use App\Form\UserType;
+
+class DemoController extends AbstractController
+{
+    /**
+     * @Route("/", name="home")
+     */
+    public function index(AuthenticationUtils $authenticationUtils): Response
+    {
+        $error = $authenticationUtils->getLastAuthenticationError();
+        $lastUsername = $authenticationUtils->getLastUsername();
+
+        return $this->render('index.html.twig', ['last_username' => $lastUsername, 'error' => $error]);
+    }
+
+    /**
+     * @Route("/user/new", name="new_user")
+     */
+    public function newUser(Request $request, EntityManagerInterface $em, ValidatorInterface $validator): Response
+    {
+        $user = new User();
+        $form = $this->createForm(UserType::class, $user);
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $em->persist($user);
+            $em->flush();
+	
+            $errors = $validator->validate($user);
+            if (count($errors) > 0) {
+                return $this->render('user/new.html.twig', [
+                    'form' => $form->createView(),
+                    'errors' => $errors,
+                ]);
+            }
+
+            return $this->redirectToRoute('home');
+        }
+
+        return $this->render('user/new.html.twig', [
+            'form' => $form->createView(),
+        ]);
+    }
+
+    /**
+     * @Route("/api/users", methods="GET")
+     */
+    public function getUsers(EntityManagerInterface $em): Response
+    {
+        $users = $em->getRepository(User::class)->findAll();
+        return $this->json($users);
+    }
+}
+</pre>
+<h2 data-key="codeExample-4">Example of a MySql query</h2>
+<pre class="lang-typescript">
+SELECT DISTINCT u.id,
+    SUBSTRING_INDEX(u.phone, ':', 1) AS phone,
+    u.first_name,
+    u.second_name,
+    u.updated_at
+FROM users u
+JOIN schools_users su ON u.id = su.user_id
+JOIN abonements a ON u.id = a.user_id
+LEFT JOIN children c ON u.id = c.user_id
+WHERE su.school_id = 3
+AND a.abonement_type_id IS NOT NULL
+ORDER BY u.updated_at DESC
+</pre>
+							</div>
+						</div>
+					</div>
+					<div class="card" id="projects">
+						<div class="col-12">
+							<h2 data-key="projects">Projects</h2>
+						</div>
+						<div class="col-12">
+							<blockquote class="blockquote">
+								<i class="fa-solid fa-quote-left"></i>
+								<p data-key="projects-1">My task was to develop a frontend based on the layout, and build a website on CMS Drupal.</p>
+								<p data-key="projects-2">in some projects to develop a module for CMS Drupal.</p>
+							</blockquote>
+						</div>
+						<div class="col-12">
+							<div class="swiper mySwiper">
+								<ul class="swiper-wrapper">
+									<li class="swiper-slide">
+										<a href="https://rinok23.ru/" target="_blank">
+											<img src="./images/rinok.jpg" alt="Rinok23">
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="http://snabexpress-mos.ru/" target="_blank">
+											<img src="./images/snabexpress.jpg" alt="snabexpress">
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="https://luckypetfood.ru/" target="_blank">
+											<img src="./images/luckypet.jpg" alt="luckypet">
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="https://rosgeoresurs.ru/" target="_blank">
+											<img src="./images/rosgeoresurs.jpg" alt="rosgeoresurs">
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="https://modameda.ru/" target="_blank">
+											<img src="./images/modameda.jpg" alt="modameda">
+										</a>
+									</li>
+									<li class="swiper-slide">
+										<a href="https://iziskania.com/" target="_blank">
+											<img src="./images/ciiak.jpg" alt="ciiak">
+										</a>
+									</li>
+								</ul>
+								<div class="swiper-button-next"></div>
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3">
+					<div class="sidebar">
+						<div class="card card__details">
+							<h2 class="card-title" data-key="details">Details</h2>
+							<ol>
+								<li class="details__item">
+									<i class="fa-solid fa-location-dot me-2"></i><p data-key="geo">Russia, Krasnodar</p>
+								</li>
+								<li class="details__item">
+									<i class="fa-solid fa-language me-2"></i><p data-key="langSkillEn">English - B2</p>
+								</li>
+								<li class="details__item">
+									<i class="fa-solid fa-language me-2"></i><p data-key="langSkillDe">Deutsche - A1</p>
+								</li>
+								<li class="details__item">
+									<i class="fa-solid fa-language me-2"></i><p data-key="langSkillRu">Russian - C2</p>
+								</li>
+								<li class="details__item">
+									<a rel="nofollow" href="tel:+79952276220" target="_blank">
+										<i class="fa-solid fa-phone me-2"></i>+7 (995) 227-62-20
+									</a>
+								</li>
+								<li>
+									<a rel="nofollow" href="https://tlgg.ru/Aleksander_Boev" target="_blank">
+										<i class="fa-brands fa-telegram me-2"></i>@Aleksander_Boev
+									</a>
+								</li>
+								<li>
+									<a rel="nofollow" href="mailto:alexander.boev.dev@gmail.com" target="_blank">
+										<i class="fa-regular fa-envelope me-2"></i>alexander.boev.dev@gmail.com
+									</a>
+								</li>
+								<li>
+									<button id="openModalBtn" class="btn btn-contact">
+										<i class="fa-solid fa-envelope me-2"></i><span data-key="contactModal-title">Contact me</span>
+									</button>
+								</li>
+							</ol>
+						</div>
+						<div class="card">
+							<h2 class="card-title" data-key="skills">Skills</h2>
+							<div class="row">
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-drupal"></i> CMS Drupal 6 - 10
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-drupal"></i> CMS 1C-Bitrix
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-bootstrap"></i> Bootstrap
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-laravel"></i> Laravel
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-solid fa-code"></i> Twig
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-less"></i> Less
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-sass"></i> Scss
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-node"></i> Node.js
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-regular fa-face-frown"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-node-js"></i> JavaScript
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-react"></i> React
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-vuejs"></i> Vue.js
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-angular"></i> Angular
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-regular fa-face-frown"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-regular fa-face-frown"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-regular fa-face-frown"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-html5"></i> HTML & CSS
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-solid fa-database"></i> MySql
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-solid fa-database"></i> GraphQL
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-regular fa-face-frown"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-regular fa-face-frown"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-regular fa-face-frown"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-php"></i> PHP
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-python"></i> Python
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-regular fa-face-frown"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-symfony"></i> Symfony
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-regular fa-face-frown"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-regular fa-face-frown"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-regular fa-face-frown"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-regular fa-face-frown"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-regular fa-face-frown"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-solid fa-code"></i> Storybook
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-git-square"></i> Git
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-docker"></i> Docker
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-atlassian"></i> Atlassian
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-bitbucket"></i> Bitbucket
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-confluence"></i> Confluence
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-jira"></i> Jira
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-auto col-xl-12">
+									<div class="card-items">
+										<div class="card-items-label">
+											<h4 class="card-label">
+												<i class="fa-brands fa-trello"></i> Trello
+											</h4>
+										</div>
+										<div class="skills-levels">
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+											<div class="skills-level active">
+												<i class="fa-solid fa-face-smile"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<h2 class="card-title" data-key="hobbies">Hobbies</h2>
+							<p data-key="hobbies1">I really like to study new technologies in the field of Front-end Development.</p>
+							<p data-key="hobbies2">I am also very interested in equity market and investments in securities.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container-fluid container-xxl">
+			<div class="row justify-content-between">
+				<div class="col-md-auto">
+					<div class="row">
+						<div class="col-md-auto">
+							<a class="my-github footer__info" href="https://github.com/AlexanderBoevDev" target="_blank">
+								<img class="github-icon" src="./images/github.svg" alt="Github Icon" width="26" height="26">
+								<p data-key="gitHub">Visit my GitHub</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-auto">
+					<div class="footer__copyright">
+						<p class="footer__info">
+							<span data-key="copyright">Aleksander Boev CV © 2021 -</span> <span id="spanDate" class="d-block ms-2"></span>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-auto">
+					<a class="footer__info" href="https://www.codewars.com/users/AlexanderBoevDev" target="_blank">
+						<img src="https://www.codewars.com/users/AlexanderBoevDev/badges/micro?theme=light">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="contactModal" class="modal">
+			<div class="modal-content">
+				<span class="close-button">&times;</span>
+				<h2 data-key="contactModal-title">Связаться со мной</h2>
+				<form id="contactForm">
+					<label for="name" data-key="contactModal-nameLabel">Ваше имя:</label>
+					<input type="text" id="name" name="name" required placeholder="Укажите ваше имя" data-key-placeholder="contactModal-namePlaceholder">
+					
+					<label for="phone" data-key="contactModal-phoneLabel">Ваш номер телефона:</label>
+					<input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}" required placeholder="+7 (999) 999-99-99" data-key-placeholder="contactModal-phonePlaceholder">
+					
+					<label for="email" data-key="contactModal-emailLabel">Ваш email:</label>
+					<input type="email" id="email" name="email" required placeholder="Укажите ваше email" data-key-placeholder="contactModal-emailPlaceholder">
+					
+					<label for="message" data-key="contactModal-messageLabel">Сообщение:</label>
+					<textarea id="message" name="message" rows="8" required placeholder="Опишите в крации суть вашего обращения." data-key-placeholder="contactModal-messagePlaceholder"></textarea>
+					
+					<button type="submit" class="btn btn-primary" data-key="contactModal-submit">Отправить</button>
+				</form>
+				<div id="formStatus"></div>
+			</div>
+		</div>
+	</footer>
+</div>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>hljs.highlightAll();</script>
+<script type="text/javascript">
+	(function(){
+		emailjs.init("contactModal");
+	})();
+</script>
+<script src="./script.js"></script>
+</body>
+</html>
