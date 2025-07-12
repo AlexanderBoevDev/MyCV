@@ -9,6 +9,15 @@ function displayMenu(event) {
     page.classList.toggle("nav-active");
 }
 
+// Функция для закрытия мобильного меню
+function closeMobileMenu() {
+    const navbarList = document.getElementById("navbarList");
+    const page = document.getElementById("page");
+    
+    navbarList.classList.remove("show");
+    page.classList.remove("nav-active");
+}
+
 // Плавная прокрутка к секциям страницы
 const anchors = document.querySelectorAll('a[href*="#"]');
 for (let anchor of anchors) {
@@ -23,8 +32,23 @@ for (let anchor of anchors) {
                 behavior: "smooth"
             });
         }
+        
+        // Закрываем мобильное меню после клика на ссылку
+        closeMobileMenu();
     });
 }
+
+// Закрытие меню при клике на ссылки навигации
+document.addEventListener('DOMContentLoaded', function() {
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    
+    navLinks.forEach(function(link) {
+        link.addEventListener('click', function() {
+            // Закрываем мобильное меню
+            closeMobileMenu();
+        });
+    });
+});
 
 // Отображение текущего года
 let tomorrow = new Date();
@@ -64,7 +88,7 @@ const swiper = new Swiper(".mySwiper", {
 
 // Загрузка и установка языка из localStorage или по умолчанию
 document.addEventListener('DOMContentLoaded', function() {
-    var storedLang = localStorage.getItem('preferredLang') || 'ru'; // Установите 'ru' как язык по умолчанию
+    var storedLang = localStorage.getItem('preferredLang') || 'ru';
     setLanguage(storedLang);
     
     document.getElementById('switch-lang').addEventListener('click', function() {
@@ -72,13 +96,16 @@ document.addEventListener('DOMContentLoaded', function() {
         setLanguage(newLang);
         localStorage.setItem('preferredLang', newLang);
         storedLang = newLang;
+        
+        // Закрываем мобильное меню при переключении языка
+        closeMobileMenu();
     });
 });
 
 // Функция установки языка и загрузки переводов
 function setLanguage(lang) {
     fetchTranslations(lang, function(translations) {
-        window.currentTranslations = translations; // Сохраняем текущие переводы для использования в getTranslation
+        window.currentTranslations = translations;
         updateTexts(translations);
         document.documentElement.lang = lang;
         document.getElementById('switch-lang').textContent = lang === 'ru' ? 'En' : 'Ru';
@@ -106,18 +133,14 @@ function updateTexts(translations) {
     elements.forEach(function(element) {
         var key = element.getAttribute('data-key');
         if (translations[key]) {
-            // Проверяем, содержит ли перевод HTML теги
             if (/</.test(translations[key]) && />/.test(translations[key])) {
-                // Если содержит, вставляем как HTML
                 element.innerHTML = translations[key];
             } else {
-                // Если не содержит, вставляем как текст
                 element.textContent = translations[key];
             }
         }
     });
     
-    // Обработка плейсхолдеров
     var placeholderElements = document.querySelectorAll('[data-key-placeholder]');
     placeholderElements.forEach(function(element) {
         var key = element.getAttribute('data-key-placeholder');
@@ -144,10 +167,10 @@ const formStatus = document.getElementById("formStatus");
 
 // Обработчик открытия модального окна
 openModalBtn.addEventListener("click", () => {
-    modal.style.display = "block"; // Устанавливаем display перед добавлением класса
+    modal.style.display = "block";
     setTimeout(() => {
         modal.classList.add("show");
-    }, 10); // Небольшая задержка для активации CSS перехода
+    }, 10);
     document.body.style.overflow = "hidden";
 });
 
@@ -155,10 +178,9 @@ openModalBtn.addEventListener("click", () => {
 closeModalBtn.addEventListener("click", () => {
     modal.classList.remove("show");
     document.body.style.overflow = "auto";
-    // После окончания перехода, скрываем модальное окно
     setTimeout(() => {
         modal.style.display = "none";
-    }, 300); // Должно совпадать с временем перехода в CSS
+    }, 300);
 });
 
 // Закрытие модального окна при клике вне его содержимого
@@ -187,7 +209,6 @@ contactForm.addEventListener("submit", function(event) {
         return;
     }
     
-    // SecureToken, полученный от SMTPJS
     const secureToken = "e7c1cd5c-cdc0-499d-8297-092f4b9d2ce9";
     
     Email.send({
