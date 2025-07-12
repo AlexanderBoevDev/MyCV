@@ -936,12 +936,11 @@ footer .github-icon {
   text-align: center;
 }
 
-w-100 {
+.w-100 {
   width: 100% !important;
+  max-width: 100% !important;
 }
 
-@media (min-width: 1200px) {
-  .w-100 {
-    width: 100% !important;
-  }
+.wm-100 {
+  max-width: 100% !important;
 }
